@@ -1,0 +1,147 @@
+body{
+  font-family: "Montserrat",sans-serif;
+}
+nav{
+  padding-bottom: 10%;
+}
+h2{
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 2.8rem;
+
+}
+h3{
+  font-family: "Montserrat" , sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+p{
+  color: #8F8F8F;
+}
+/* Navbar */
+.navbar-brand{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+
+}
+.heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+.spec-img{
+  color: #ef8172;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.spec-img:hover{
+  color: #ff4c68;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+.btn{
+  margin: 5% 3% 5% 0;
+}
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  /* My approach angela's */
+  /* margin-left: 50px; */
+  right: 30%; /*fakt right side lihun pn me right side la karu shakto*/
+  position: absolute;
+}
+.main-img{
+  position: relative;   /*img chya div la position relative dili ani varti img la absolute dili so aata div cha children img aahe*/
+}
+.specifications{
+  padding: 0 3.125rem 0 3.125rem;
+}
+.testimonials-img{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px; /*top left right bottom;*/
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+.height-arrange{
+  margin-bottom: 58px;
+}
+.cta-heading{
+  font-family: "Montserrat";
+  font-size: 2.75rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+
+}
+.footer-img{
+  padding: 20px 13px;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 120px 250px;
+}
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 120px 250px;
+}
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+#title{
+  background-color: #ff4c68;
+}
+#features{
+  padding: 8.375rem 6.25rem;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+@media (max-width: 1028px){
+  .title-img{
+    position: static; /* position static kele ki tho z index and all madun mukt honar*/
+    transform: rotate(0); /* rotate 0 cha meaning straight hoto*/
+  }
+  #title{
+    text-align: center;
+  }
+}
